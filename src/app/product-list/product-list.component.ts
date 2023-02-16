@@ -5,19 +5,16 @@ import { products } from '../products';
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.css']
+  styleUrls: ['./product-list.component.css'],
 })
 export class ProductListComponent {
-  products = products;
+  productos = products;
 
-  share() {
-    window.alert('The product has been shared!');
+  compartir() {
+    window.alert('El producto ha sido compartido!');
+  }
+
+  onNotify() {
+    window.alert('Usted será notificado cuando el producto sale a la venta');
   }
 }
-
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
