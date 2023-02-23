@@ -1,3 +1,9 @@
 :host{
-  background-color: crimson;
+  background-color: rgb(128, 128, 234);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  height: auto;
+  -webkit-box-shadow: 13px 24px 73px -39px rgba(156,62,62,1);
+-moz-box-shadow: 13px 24px 73px -39px rgba(156,62,62,1);
+box-shadow: 13px 24px 73px -39px rgba(156,62,62,1)
 }

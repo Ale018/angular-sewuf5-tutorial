@@ -1,0 +1,11 @@
+
+  @media (min-width:500px){
+    .content{
+      padding: 4%;
+    }
+  }
+  @media (max-width:1000px){
+    .content{
+      padding: 3%;
+    }
+  }

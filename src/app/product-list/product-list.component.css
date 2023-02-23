@@ -1,12 +1,33 @@
-:host {
-  background-color: rgb(202, 239, 248);
-}
 h2 {
   font-size: 1.7em;
 }
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
+.contenido {
+  display: flex;
+  /*flex-direction: row;*/
+  flex-wrap: wrap;
+
+
+}
+@media (min-width:500px){
+  .contenido{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media (max-width:1000px){
+  .contenido{
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  @media (min-width: 100px){
+    .contenido{
+      padding-left: 21%;
+    }
+  }
+}
+
+.product {
+  display: inline-block;
+}
