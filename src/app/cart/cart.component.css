@@ -1,0 +1,7 @@
+#productos{
+    display: flex;
+  flex-wrap: wrap;
+  background-color: cornsilk;
+  padding: 5px;
+  margin: 2px;
+}

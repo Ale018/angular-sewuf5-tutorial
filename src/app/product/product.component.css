@@ -1,5 +1,5 @@
 :host {
-    display:block;
+    display: block;
     background-color: rgb(255, 255, 255);
     width: 200px;
     border-radius: 7px;
@@ -7,4 +7,28 @@
     margin-left: 5px;
     border: 1px solid #1e05ad;
     box-shadow: 10px 10px 10px rgb(146, 160, 250);
+}
+
+#mostrar {
+    float: right;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #6965d2;
+    border: none;
+    border-radius: 12px;
+}
+
+#mostrar:active, #bot:active {
+    background-color: #b9f100;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+#bot{
+    border: none;
+    border-radius: 12px;
 }
